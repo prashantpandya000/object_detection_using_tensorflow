@@ -27,6 +27,7 @@ source tfod/bin/activate # Linux
 python -m pip install --upgrade pip
 pip install ipykernel
 python -m ipykernel install --user --name=tfodj
+pip install jupyter
 </pre>
 <br/>
 <b>Step 5.</b> Collect images using the Notebook <a href="https://github.com/prashantpandya000/object_detection_using_tensorflow/blob/master/1.%20Image%20Collection.ipynb">1. Image Collection.ipynb</a> - ensure you change the kernel to the virtual environment as shown below
